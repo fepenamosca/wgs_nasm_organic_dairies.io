@@ -1,0 +1,25 @@
+name: "Whole genome sequencing of non-aureus Staphylococci and Mammaliicocci isolated from the teat apex of dairy cows raised under organic certification"
+header-includes: 
+  \usepackage{graphicx}
+  \usepackage{float}
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About us"
+      menu:
+          - text: "Open-ROAMER"
+            href: https://eorganic.info/node/29264
+          - text: "Caixeta Lab"
+            href: https://sites.google.com/umn.edu/caixetalab/
+          - text: "Noyes Lab"
+            href: https://www.thenoyeslab.org/
+    - text: "Code and output"
+      href: NASM_WGS.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<penam003@umn.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/fepenamosca/
+output:  
+   html_document:
+    theme: flatly
